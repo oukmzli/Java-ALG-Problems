@@ -1,0 +1,61 @@
+T1: W1 W2 
+Train T1 already exists
+T1: W0 W1 W2 
+Train T5 does not exist
+T1: W1 W2 
+T2: W0 
+T1: W1 
+T3: W2 
+Train T6 does not exist
+Train T2 already exists
+Train T9 does not exist
+Train T1 does not exist
+Train T1 does not exist
+T9: Z0 
+Trains: T9 T3 T2 
+
+//////////
+
+T1: W5 W3 W2 W1 W0 
+T2: W8 W7 W6 
+Trains: T2 T1 
+T1: W5 W3 W2 W1 W0 W8 W7 W6 
+T1: W6 W7 W8 W0 W1 W2 W3 W5 
+T1: FS1 W6 W7 W8 W0 W1 W2 W3 W5 LS1 
+T1: LS1 W5 W3 W2 W1 W0 W8 W7 W6 FS1 
+T3: R1 R2 R3 R4 R5 
+T3: R1 R2 R3 R4 R5 LS1 W5 W3 W2 W1 W0 W8 W7 W6 FS1 
+T3: FS1 W6 W7 W8 W0 W1 W2 W3 W5 LS1 R5 R4 R3 R2 R1 
+
+T1: W5 W3 W2 W1 W0
+T2: W8 W7 W6
+Trains: T2 T1
+T1: W5 W3 W2 W1 W0 W8 W7 W6
+T1: W6 W7 W8 W0 W1 W2 W3 W5
+T1: FS1 W6 W7 W8 W0 W1 W2 W3 W5 LS1
+T1: LS1 W5 W3 W2 W1 W0 W8 W7 W6 FS1
+T3: R1 R2 R3 R4 R5
+T3: R1 R2 R3 R4 R5 LS1 W5 W3 W2 W1 W0 W8 W7 W6 FS1
+T3: FS1 W6 W7 W8 W0 W1 W2 W3 W5 LS1 R5 R4 R3 R2 R1
+
+
+
+
+1
+14
+New T1 W0
+InsertLast T1 W1
+InsertLast T1 W2
+InsertLast T1 W3
+Display T1
+Reverse T1
+Display T1
+New T2 W6
+InsertLast T1 W7
+InsertLast T1 W8
+InsertLast T1 W9
+Display T2
+Union T1 T2
+Display T1
+
+W3 W2 W1 W0 W7 W8 W9 W6 
