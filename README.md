@@ -11,7 +11,7 @@ This repository contains a variety of algorithmic problems implemented in Java. 
 ### P_02. Triangles
     -- binary search algorithm used to find geometrical silutions
 
-### P_03. INF <=> ONP conversions.
+### P_03. INF <=> RPN conversions.
     -- stack, conversation algorithms
     
 ### P_04. Bound letters
@@ -38,7 +38,7 @@ This repository contains a variety of algorithmic problems implemented in Java. 
 To clone and run these projects, follow these steps:
 -- install JDK 
 ```bash
-git clone https://github.com/oukmzli/Cpp-Projects.git
+git clone https://github.com/oukmzli/Java-ALG-Problems.git
 cd Java-ALG-Problems/directory of a specific problem
 javac Main.java
 java Main
